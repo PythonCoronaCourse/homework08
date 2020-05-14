@@ -13,9 +13,10 @@
 1. Implement the `print_book_details` method (add formal arguments to the definition).
 1. Running the script should result in printing of:
 ```
-title: Bible; author: Jeff Bezos; genre: autobiography
-title: Kill people, get money; author: Jeff Bezos; price: 20.00, genre: guide
-title: Jak rozjechać babę na pasach i nie ponieść żadnych konsekwencji, author: Tomasz Hajto
+oczekiwany output:
+title: Bible; author: Jeff Bezos; genre: autobiography;
+title: Kill people, get money; author: Jeff Bezos; price: 20.00, genre: guide;
+title: Jak rozjechać babę na pasach i nie ponieść żadnych konsekwencji, author: Tomasz Hajto;
 ```
 1. Add your changes to your local repository with `git add script.py` and **commit** them.
 1. Push your homework with `git push -u origin your-name` (again remember to provide your name).
