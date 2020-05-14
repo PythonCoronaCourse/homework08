@@ -1,4 +1,4 @@
-# homework07
+# homework08
 
 ### Configuration
 1. Clone this repository to your computer: open git bash in PycharmProject folder and use command `git clone git@github.com:PythonCoronaCourse/homework08.git`
