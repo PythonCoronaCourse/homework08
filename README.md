@@ -13,7 +13,6 @@
 1. Implement the `print_book_details` method (add formal arguments to the definition).
 1. Running the script should result in printing of:
 ```
-oczekiwany output:
 title: Bible; author: Jeff Bezos; genre: autobiography;
 title: Kill people, get money; author: Jeff Bezos; price: 20.00, genre: guide;
 title: Jak rozjechać babę na pasach i nie ponieść żadnych konsekwencji, author: Tomasz Hajto;
