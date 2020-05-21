@@ -8,11 +8,11 @@ def print_book_details(title, author, **kwargs):
 #        print("price: ", price)
 #    if genre:
 #        print("genre: ", genre)
-    if price:
-            if genre:
+    if genre:
+            if price:
                 print("title:", title, "; author:", author, "; price:", price, "; genre:", genre)
             else:
-                print("title:", title, "; author:", author, "; price:", price)
+                print("title:", title, "; author:", author, "; genre:", genre)
     else:
         print("title:", title, "; author:", author)
     return
