@@ -1,5 +1,10 @@
-def print_book_details():
-    pass
+def print_book_details(title, author, **kwargs):
+    print("title:", title, end = "; ")
+    print("author:", author, end = "; ")
+    if kwargs:
+        for k, v in kwargs.items():
+            print("{}: {},".format(k,v))
+
 
 
 print_book_details(title="Bible", author="Jeff Bezos", genre="autobiography")
