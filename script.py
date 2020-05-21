@@ -1,5 +1,10 @@
-def print_book_details():
-    pass
+def print_book_details(title, **kwargs):
+    print("title:", title, end="; ")
+    order = ["author", "genre", "price"]
+    for x in order:
+        if x in kwargs:
+            print(x, ":", kwargs[x], end="; ")
+    print("")
 
 
 print_book_details(title="Bible", author="Jeff Bezos", genre="autobiography")
@@ -11,7 +16,6 @@ print_book_details(
     "Jak rozjechać babę na pasach i nie ponieść żadnych konsekwencji",
     author="Tomasz Hajto"
 )
-
 
 """
 oczekiwany output:
