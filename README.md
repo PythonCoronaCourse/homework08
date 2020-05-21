@@ -5,7 +5,7 @@
 1. Open freshly cloned folder as a project in Pycharm.
 1. Configure Pycharm by clicking `Edit Configurations...` in right upper corner and point to `script.py` in `Script path` field.
 1. If there's a problem with `Python interpreter` fix it according to tutorial titled "Virtual Environment" on our Facebook group.
-1. Don't change anything outside Party class.
+1. Don't change anything outside of function definition.
 1. Create a new branch named after you with command `git checkout -b your-name` (of course provide your name in place of "your-name").
 
 ### Homework completion
