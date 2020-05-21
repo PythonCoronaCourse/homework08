@@ -15,7 +15,7 @@ def print_book_details(title, author, **kwargs):
                 print("title:", title, "; author:", author, "; price:", price)
     else:
         print("title:", title, "; author:", author)
-    returnta
+    return
 
 
 print_book_details(title="Bible", author="Jeff Bezos", genre="autobiography")
